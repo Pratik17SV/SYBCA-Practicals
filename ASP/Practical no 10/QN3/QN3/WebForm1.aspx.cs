@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
@@ -15,93 +14,43 @@ namespace QN3
         protected void Page_Load(object sender, EventArgs e)
         {
 
-            if (!IsPostBack)
-            {
-                DisplayData();
-            }
-        }
-        private void DisplayData()
-
-        {
-            using (SqlConnection conn = new SqlConnection(@"Data Source=31D-LAB6-08\SQLEXPRESS;Initial Catalog=account;Integrated Security=True"))
-            {
-                string query = "SELECT * FROM [register]";
-                using (SqlDataAdapter da = new SqlDataAdapter(query, conn))
-                {
-                    DataTable dt = new DataTable();
-                    da.Fill(dt);
-                    GridView1.DataSource = dt;
-                    GridView1.DataBind();
-                    GridView1.Visible = dt.Rows.Count > 0;
-                }
-            }
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void Registerbtn(object sender, EventArgs e)
         {
-            using (SqlConnection conn = new SqlConnection(@"Data Source=31D-LAB6-08\SQLEXPRESS;Initial Catalog=account;Integrated Security=True"))
+            string Fname = TextBox1.Text;
+            string Lname = TextBox2.Text;
+            int age = int.Parse(TextBox3.Text);
+            string accounttype = DropDownList1.SelectedValue;
+            string address = TextBox6.Text;
+            string email = TextBox4.Text;
+            int mobile = int.Parse(TextBox5.Text);
+
+            String connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practical no 10\QN3\QN3\App_Data\Database1.mdf;Integrated Security=True;TrustServerCertificate=False";
+            SqlConnection con = new SqlConnection(connectionString);
+            string insertQuery = "INSERT INTO  ACCOUNTINFO (Fname, lname, age, AccountType, Address, Email, Mobile) VALUES ("+Fname+", "+Lname+", "+age+", "+accounttype+","+address+", "+email+", " +mobile+")";
+            SqlCommand cmd = new SqlCommand(insertQuery,con);
+            con.Open();
+            int i = cmd.ExecuteNonQuery();
+            con.Close();
+            if (i == 0)
             {
-                string query = "INSERT INTO [register] (username, age, accountType, user_address, email, contact) VALUES(@username, @age, @accountType, @user_address, @email, @contact)";
-                using (SqlCommand cmd = new SqlCommand(query, conn))
-                {
-                    cmd.Parameters.AddWithValue("@username", TextBox1.Text);
-                    cmd.Parameters.AddWithValue("@age", TextBox2.Text);
-                    cmd.Parameters.AddWithValue("@accountType", DropDownList1.SelectedValue);
-                    cmd.Parameters.AddWithValue("@user_address", TextBox3.Text);
-                    cmd.Parameters.AddWithValue("@email", TextBox4.Text);
-                    cmd.Parameters.AddWithValue("@contact", TextBox5.Text);
-                    conn.Open();
-                    cmd.ExecuteNonQuery();
-                    conn.Close();
-                }
+                lblMessage.Text = "Registration Failed";
+                lblMessage.Visible = true;
+                lblMessage.ForeColor = System.Drawing.Color.Red;
             }
-            DisplayData();
+            else
+            {
+                lblMessage.Text = "Registration Successful";
+                lblMessage.Visible = true;
+                lblMessage.ForeColor = System.Drawing.Color.Green;
+            }
+
         }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            using (SqlConnection conn = new SqlConnection(@"Data Source=31D-LAB6-08\SQLEXPRESS;Initial Catalog=account;Integrated Security=True"))
-            {
-                string query = "UPDATE [register] SET age=@age, accountType = @accountType, user_address = @user_address, email = @email, contact = @contact WHERE TRIM(username)= @username";
-                using (SqlCommand cmd = new SqlCommand(query, conn))
-                {
-                    cmd.Parameters.AddWithValue("@name", TextBox1.Text.Trim());
-                    cmd.Parameters.AddWithValue("@age", TextBox2.Text);
-                    cmd.Parameters.AddWithValue("@accountType", DropDownList1.SelectedValue);
-                    cmd.Parameters.AddWithValue("@address", TextBox3.Text);
-                    cmd.Parameters.AddWithValue("@email", TextBox4.Text);
-                    cmd.Parameters.AddWithValue("@contact", TextBox5.Text);
-                    conn.Open();
-                    int rowsAffected = cmd.ExecuteNonQuery();
-                    if (rowsAffected == 0)
-                    {
-                        Response.Write("<script>alert('No matching record found to update!')</script>");
-                    }
-                    conn.Close();
-                }
-            }
-            DisplayData();
-        }
-
-        protected void Button3_Click(object sender, EventArgs e)
-        {
-            using (SqlConnection conn = new SqlConnection(@"Data Source=31D-LAB6-08\SQLEXPRESS;Initial Catalog=account;Integrated Security=True"))
-            {
-                string query = "DELETE FROM [register] WHERE username = @username";
-                using (SqlCommand cmd = new SqlCommand(query, conn))
-                {
-                    cmd.Parameters.AddWithValue("@username", TextBox1.Text);
-                    conn.Open();
-                    cmd.ExecuteNonQuery();
-                    conn.Close();
-                }
-            }
-            DisplayData();
-        }
-
-        protected void Button4_Click(object sender, EventArgs e)
-        {
-            DisplayData();
+            GridView1.Visible = true;
         }
     }
 }
