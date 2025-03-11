@@ -1,7 +1,19 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "B:\\Collage BCA\\Sybca\\Sem 4\\SYBCA-Practicals\\ASP\\Practical no 10\\QN2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/PRATIKLAPTOP_SQLEXPRESS/Student/True/SqlTable/dbo.Student.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2052D8E9-5D5B-4CB5-99D9-65D183394AEF}|QN2\\QN2.csproj|b:\\collage bca\\sybca\\sem 4\\sybca-practicals\\asp\\practical no 10\\qn2\\qn2\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2052D8E9-5D5B-4CB5-99D9-65D183394AEF}|QN2\\QN2.csproj|solutionrelative:qn2\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2052D8E9-5D5B-4CB5-99D9-65D183394AEF}|QN2\\QN2.csproj|b:\\collage bca\\sybca\\sem 4\\sybca-practicals\\asp\\practical no 10\\qn2\\qn2\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2052D8E9-5D5B-4CB5-99D9-65D183394AEF}|QN2\\QN2.csproj|solutionrelative:qn2\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +21,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dbo.Student [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/PRATIKLAPTOP_SQLEXPRESS/Student/True/SqlTable/dbo.Student.sql",
+              "ToolTip": "dbo.Student [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-10T17:59:28.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "B:\\Collage BCA\\Sybca\\Sem 4\\SYBCA-Practicals\\ASP\\Practical no 10\\QN2\\QN2\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "QN2\\WebForm1.aspx",
+              "ToolTip": "B:\\Collage BCA\\Sybca\\Sem 4\\SYBCA-Practicals\\ASP\\Practical no 10\\QN2\\QN2\\WebForm1.aspx",
+              "RelativeToolTip": "QN2\\WebForm1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-10T17:18:09.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebForm1.aspx.cs",
+              "DocumentMoniker": "B:\\Collage BCA\\Sybca\\Sem 4\\SYBCA-Practicals\\ASP\\Practical no 10\\QN2\\QN2\\WebForm1.aspx.cs",
+              "RelativeDocumentMoniker": "QN2\\WebForm1.aspx.cs",
+              "ToolTip": "B:\\Collage BCA\\Sybca\\Sem 4\\SYBCA-Practicals\\ASP\\Practical no 10\\QN2\\QN2\\WebForm1.aspx.cs",
+              "RelativeToolTip": "QN2\\WebForm1.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T17:19:11.218Z",
+              "EditorCaption": ""
             }
           ]
         }
