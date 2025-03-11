@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE books SYSTEM "books.dtd" [
+    <!ELEMENT publisher (#PCDATA)>
+]>
+<books>
+    <book>
+        <name>The Great Gatsby</name>
+        <author>F. Scott Fitzgerald</author>
+        <rights>Public Domain</rights>
+        <publisher>Charles Scribner's Sons</publisher>
+    </book>
+
+    <book>
+        <name>1984</name>
+        <author>George Orwell</author>
+        <rights>Copyrighted</rights>
+        <publisher>Secker & Warburg</publisher>
+    </book>
+</books>
