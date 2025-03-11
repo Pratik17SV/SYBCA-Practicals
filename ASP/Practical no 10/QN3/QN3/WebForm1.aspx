@@ -9,6 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Label ID="lblMessage" runat="server" Text="Label"></asp:Label>
             <table style="width:100%;">
                 <tr>
                     <td>
@@ -71,7 +72,7 @@
                         <asp:Button ID="Redister" runat="server" OnClick="Button1_Click" Text="Register" />
                     </td>
                     <td>
-                        <asp:Button ID="Button2" runat="server" Text="Display" />
+                        <asp:Button ID="Button2" runat="server" Text="Display" OnClick="Button2_Click" />
                     </td>
                 </tr>
                 <tr>
@@ -87,7 +88,7 @@
 
             </table>
         </div>
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="SqlDataSource1">
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="SqlDataSource1" Visible="False">
             <Columns>
                 <asp:BoundField DataField="Id" HeaderText="Id" ReadOnly="True" SortExpression="Id" />
                 <asp:BoundField DataField="Fnmae" HeaderText="Fnmae" SortExpression="Fnmae" />
