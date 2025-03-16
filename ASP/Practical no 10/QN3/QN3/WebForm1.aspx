@@ -87,8 +87,8 @@
         </div>
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="SqlDataSource1" Visible="False">
             <Columns>
-                <asp:BoundField DataField="Id" HeaderText="Id" ReadOnly="True" SortExpression="Id" />
-                <asp:BoundField DataField="Fnmae" HeaderText="Fnmae" SortExpression="Fnmae" />
+                <asp:BoundField DataField="Id" HeaderText="Id" ReadOnly="True" SortExpression="Id" InsertVisible="False" />
+                <asp:BoundField DataField="Fname" HeaderText="Fname" SortExpression="Fname" />
                 <asp:BoundField DataField="Lname" HeaderText="Lname" SortExpression="Lname" />
                 <asp:BoundField DataField="age" HeaderText="age" SortExpression="age" />
                 <asp:BoundField DataField="AccountType" HeaderText="AccountType" SortExpression="AccountType" />
@@ -97,7 +97,7 @@
                 <asp:BoundField DataField="Mobile" HeaderText="Mobile" SortExpression="Mobile" />
             </Columns>
         </asp:GridView>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT * FROM [Accountinfo]"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [Accountinfo]"></asp:SqlDataSource>
     </form>
 </body>
 </html>

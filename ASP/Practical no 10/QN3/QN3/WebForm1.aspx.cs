@@ -24,11 +24,11 @@ namespace QN3
             string accounttype = DropDownList1.SelectedValue;
             string address = TextBox6.Text;
             string email = TextBox4.Text;
-            int mobile = int.Parse(TextBox5.Text);
+            int mobile = Int32.Parse(TextBox5.Text);
 
-            String connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practical no 10\QN3\QN3\App_Data\Database1.mdf;Integrated Security=True;TrustServerCertificate=False";
+            String connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"B:\\Collage BCA\\Sybca\\Sem 4\\SYBCA-Practicals\\ASP\\Practical no 10\\QN3\\QN3\\App_Data\\Database1.mdf\";Integrated Security=True";
             SqlConnection con = new SqlConnection(connectionString);
-            string insertQuery = "INSERT INTO  ACCOUNTINFO (Fname, lname, age, AccountType, Address, Email, Mobile) VALUES ("+Fname+", "+Lname+", "+age+", "+accounttype+","+address+", "+email+", " +mobile+")";
+            string insertQuery = "INSERT INTO Accountinfo (Fname, Lname, age, AccountType, Address, Email, Mobile) VALUES ('" + Fname + "', '" + Lname + "', " + age + ", '" + accounttype + "', '" + address + "', '" + email + "', " + mobile + ")";
             SqlCommand cmd = new SqlCommand(insertQuery,con);
             con.Open();
             int i = cmd.ExecuteNonQuery();
