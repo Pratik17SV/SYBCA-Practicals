@@ -2392,6 +2392,24 @@
 					"name": "Loan"
 				}
 			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGVnXdyC8/0O9g=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model1",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAGVnXdyC8/1Yc0=",
+					"_parent": {
+						"$ref": "AAAAAAGVnXdyC8/0O9g="
+					},
+					"name": "ClassDiagram1"
+				}
+			]
 		}
 	]
 }
