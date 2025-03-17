@@ -52,5 +52,27 @@ namespace QN3
         {
             GridView1.Visible = true;
         }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            String connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"B:\\Collage BCA\\Sybca\\Sem 4\\SYBCA-Practicals\\ASP\\Practical no 10\\QN3\\QN3\\App_Data\\Database1.mdf\";Integrated Security=True";
+            String query = "delete from Accountinfo where Fname='" + TextBox1 + "'";
+            SqlCommand cmd = new SqlCommand(query, new SqlConnection(connectionString));
+            cmd.Connection.Open();
+            int i = cmd.ExecuteNonQuery();
+            if (i == 0)
+            {
+                lblMessage.Text = "Deletion Failed";
+                lblMessage.Visible = true;
+                lblMessage.ForeColor = System.Drawing.Color.Red;
+            }
+            else
+            {
+                lblMessage.Text = "Deletion Successful";
+                lblMessage.Visible = true;
+                lblMessage.ForeColor = System.Drawing.Color.Green;
+            }
+            cmd.Connection.Close();
+        }
     }
 }

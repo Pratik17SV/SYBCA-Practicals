@@ -21,7 +21,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:Label ID="Label2" runat="server" Text="Enter Laast name"></asp:Label>
+                        <asp:Label ID="Label2" runat="server" Text="Enter Last name"></asp:Label>
                     </td>
                     <td>
                         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
@@ -78,7 +78,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:Button ID="Button3" runat="server" Text="Modification" />
+                        <asp:Button ID="Button3" runat="server" Text="Delete" OnClick="Button3_Click" />
                     </td>
                     <td>&nbsp;</td>
                 </tr>
