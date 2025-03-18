@@ -23,7 +23,7 @@
     <button id="hideButton">Hide</button>
     <button id="showButton">Show</button>
     <button id="animateButton">Animate</button>
-    <!-- <button id="backanimation">Backanimation</button> -->
+    <button id="backanimation">Backanimation</button>
 
     <div id="box"></div>
 
@@ -39,14 +39,14 @@
 
             $('#animateButton').click(function() {
                 $('#box').animate({
-                    marginLeft: '100px',
+                    marginLeft: '500px',
                 }, 1000); 
             });
-            // $('#backanimation').click(function() {
-            //     $('#box').animate({
-            //         marginLeft: '20px',
-            //     }, 1000); 
-            // });
+            $('#backanimation').click(function() {
+                $('#box').animate({
+                    marginLeft: '20px',
+                }, 1000); 
+            });
         });
     </script>
 
