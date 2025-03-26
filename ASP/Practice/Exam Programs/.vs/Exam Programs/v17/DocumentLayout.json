@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "B:\\Collage BCA\\Sybca\\Sem 4\\SYBCA-Practicals\\ASP\\Practice\\Exam Programs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AEFD8197-C842-4055-BAE6-E9B353B166D9}|Exam Programs\\Accept4number.csproj|b:\\collage bca\\sybca\\sem 4\\sybca-practicals\\asp\\practice\\exam programs\\exam programs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEFD8197-C842-4055-BAE6-E9B353B166D9}|Exam Programs\\Accept4number.csproj|solutionrelative:exam programs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "B:\\Collage BCA\\Sybca\\Sem 4\\SYBCA-Practicals\\ASP\\Practice\\Exam Programs\\Exam Programs\\Program.cs",
+              "RelativeDocumentMoniker": "Exam Programs\\Program.cs",
+              "ToolTip": "B:\\Collage BCA\\Sybca\\Sem 4\\SYBCA-Practicals\\ASP\\Practice\\Exam Programs\\Exam Programs\\Program.cs",
+              "RelativeToolTip": "Exam Programs\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T12:05:23.873Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

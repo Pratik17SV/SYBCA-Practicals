@@ -1,0 +1,59 @@
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\practice Web app.dll.config
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\practice Web app.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\practice Web app.pdb
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\csc.exe
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\csc.exe.config
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\csc.rsp
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\csi.exe
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\csi.exe.config
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\csi.rsp
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\Microsoft.CodeAnalysis.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\Microsoft.CSharp.Core.targets
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\Microsoft.Managed.Core.targets
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\Microsoft.VisualBasic.Core.targets
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\Microsoft.Win32.Primitives.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.AppContext.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.Collections.Immutable.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.Console.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.Diagnostics.StackTrace.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.Globalization.Calendars.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.IO.Compression.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.IO.Compression.ZipFile.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.IO.FileSystem.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.IO.FileSystem.Primitives.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.Net.Http.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.Net.Sockets.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.Reflection.Metadata.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.Security.Cryptography.Encoding.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.Security.Cryptography.Primitives.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.Text.Encoding.CodePages.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.Threading.Tasks.Extensions.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.ValueTuple.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.Xml.ReaderWriter.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.Xml.XmlDocument.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.Xml.XPath.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\System.Xml.XPath.XDocument.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\vbc.exe
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\vbc.exe.config
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\vbc.rsp
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\VBCSCompiler.exe
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\roslyn\VBCSCompiler.exe.config
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\obj\Debug\practice Web app.csproj.AssemblyReference.cache
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\obj\Debug\practice Web app.csproj.CoreCompileInputs.cache
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\obj\Debug\practice.EE329AF0.Up2Date
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\obj\Debug\practice Web app.dll
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\practice Web app\practice Web app\obj\Debug\practice Web app.pdb

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>~/Images/box3 image2.jpg</ImageUrl>
+		<Impressions>50</Impressions>
+		<Width>400</Width>
+		<Height>200</Height>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/Images/box3 image3.jpg</ImageUrl>
+		<Impressions>100</Impressions>
+		<Width>400</Width>
+		<Height>200</Height>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/Images/box3 image4.jpg</ImageUrl>
+		<Impressions>150</Impressions>
+		<Width>400</Width>
+		<Height>200</Height>
+	</Ad>
+</Advertisements>

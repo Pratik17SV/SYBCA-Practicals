@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE office[
+	<!ELEMENT office (employee+)>
+	<!ELEMENT employee (name,gender,address,dept)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT gender (#PCDATA)>
+	<!ELEMENT address (#PCDATA)>
+	<!ELEMENT dept (#PCDATA)>]>
+<office>
+	<employee>
+		<name>Aditi</name>
+		<gender>Female</gender>
+		<address>Collector's Colony</address>
+		<dept> IT Support and Infrastructure</dept>
+	</employee>
+	<employee>
+		<name>Paurnima</name>
+		<gender>Female</gender>
+		<address>Chembur Camp</address>
+		<dept>Development and Engineering</dept>
+	</employee>
+	<employee>
+		<name>Ishika</name>
+		<gender>Female</gender>
+		<address>Sindhi Society</address>
+		<dept>Project Management</dept>
+	</employee>
+
+</office>

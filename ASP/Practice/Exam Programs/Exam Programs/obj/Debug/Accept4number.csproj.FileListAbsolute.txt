@@ -1,0 +1,7 @@
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\Exam Programs\Exam Programs\bin\Debug\Exam Programs.exe.config
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\Exam Programs\Exam Programs\bin\Debug\Exam Programs.exe
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\Exam Programs\Exam Programs\bin\Debug\Exam Programs.pdb
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\Exam Programs\Exam Programs\obj\Debug\Accept4number.csproj.AssemblyReference.cache
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\Exam Programs\Exam Programs\obj\Debug\Accept4number.csproj.CoreCompileInputs.cache
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\Exam Programs\Exam Programs\obj\Debug\Exam Programs.exe
+B:\Collage BCA\Sybca\Sem 4\SYBCA-Practicals\ASP\Practice\Exam Programs\Exam Programs\obj\Debug\Exam Programs.pdb
