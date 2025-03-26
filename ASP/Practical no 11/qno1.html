@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.6.0.min.js"></script>
+    <title>Document</title>
+    <style>
+        p{
+            font-size: 20px;
+            padding: 3rem 20px;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            $("p").hover(
+            function(){
+                $(this).css("background-color", "yellow");
+            },
+            
+            function(){
+                $(this).css("background-color", "gray");
+            }
+            )
+        })
+    </script>
+</head>
+<body>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, laudantium ipsam alias id architecto, rem porro nam corporis provident eum minus dolorem! Officiis architecto fugit itaque, aperiam at porro vitae?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus inventore id repellat provident dolorum vero iure architecto esse porro. Corporis veniam facilis modi optio dicta iure illum, sed voluptatem qui!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, sit non quis commodi facere laborum reiciendis dolore omnis similique, quaerat quo molestiae soluta suscipit totam, voluptate quod expedita voluptatibus. Expedita!</p>
+</body>
+</html>
